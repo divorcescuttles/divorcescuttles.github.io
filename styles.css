@@ -1,0 +1,137 @@
+/* COLORS
+** #BF0A00
+** #800600
+** #FF0B00
+** #400300
+** #E60B00 */
+
+/**/
+body {
+    margin: 0;
+}
+
+#entrance {
+    background-image: linear-gradient(#400300, black);
+}
+
+#web {
+    background-image: url(imgs/spiderweb.png);
+    background-size: cover;
+}
+
+#rose {
+    border: 0px;
+    margin: 0;
+    height: 120px;
+    background-position: 0px 60px;
+    background-image: url(imgs/black_rose.png);
+    background-repeat: repeat-x;
+}
+
+#roseFlipped {
+    border: 0px;
+    margin: 0;
+    height: 120px;
+    background-position: 0px -60px;
+    background-image: url(imgs/black_rose.png);
+    background-repeat: repeat-x;
+}
+
+#noone1 {
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #E60B00;
+}
+
+#noone2 {
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #E60B00;
+    opacity: 0.8;
+}
+
+#noone3 {
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #E60B00;
+    opacity: 0.6;
+}
+
+#noone4 {
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #E60B00;
+    opacity: 0.4;
+}
+
+#noone5 {
+    text-align: left;
+    font-size: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #E60B00;
+    opacity: 0.2;
+}
+
+#does1 {
+    text-align: right;
+    font-size: 40px;
+    font-family: 'Special Elite', cursive;
+    color: #000000;
+}
+
+#does2 {
+    text-align: right;
+    font-size: 50px;
+    font-family: 'Special Elite', cursive;
+    color: #000000;
+}
+
+#does3 {
+    text-align: right;
+    font-size: 60px;
+    font-family: 'Special Elite', cursive;
+    color: #000000;
+}
+
+#does4 {
+    text-align: right;
+    font-size: 80px;
+    font-family: 'Special Elite', cursive;
+    color: #000000;
+}
+
+#space {
+    background-image: url(imgs/space.png);
+    background-repeat: repeat;
+}
+
+#spaceGradient {
+    background-image: linear-gradient(transparent, black);
+    height: 100%;
+}
+
+#water {
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+#water_video {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -100;
+}
+#water_content {
+    background-image: linear-gradient(black, transparent);
+    z-index: -10;
+    height: 100%;
+    position: relative;
+}
